@@ -27,6 +27,12 @@ public class RecordDTO implements Serializable {
 		genreName = entity.getGame().getGenre().getName();
 		
 	}
+	
+	public RecordDTO() {
+
+	}
+
+	
 
 	public Long getId() {
 		return id;

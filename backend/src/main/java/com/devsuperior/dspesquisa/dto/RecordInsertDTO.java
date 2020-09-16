@@ -7,7 +7,7 @@ public class RecordInsertDTO implements Serializable {
 
 	private String name;
 	private Integer age;
-	private Long gameID;
+	private Long gameId;
 	
 	public RecordInsertDTO() {
 		
@@ -30,11 +30,11 @@ public class RecordInsertDTO implements Serializable {
 	}
 
 	public Long getGameID() {
-		return gameID;
+		return gameId;
 	}
 
 	public void setGameID(Long gameID) {
-		this.gameID = gameID;
+		this.gameId = gameID;
 	}
 	
 	
