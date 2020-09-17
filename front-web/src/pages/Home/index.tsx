@@ -16,7 +16,7 @@ const Home = () => (
             <Link to="/records">
                 <div className="home-actions">
                     <button className="home-btn">
-                        QUERO SABER QUAIS SÃO
+                        QUERO SABER QUAIS SÃO!
                     </button>
                     <div className="home-btn-icon">
                         <ArrowIcon  className="home-image"/>
