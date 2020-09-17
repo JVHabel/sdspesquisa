@@ -1,15 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header/index';
-import Home from './pages/Home';
+import { Route } from 'react-router-dom';
+import Routes from './Routes';
+
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Home />
-    </div>
+    <Routes/>
   );
 }
 
