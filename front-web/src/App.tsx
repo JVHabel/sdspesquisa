@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/index';
 
 function App() {
   return (
-    <h1>Hello semana Dev Superior</h1>
+    <div>
+      <Header />
+    </div>
   );
 }
 
